@@ -1,0 +1,69 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Jupyter checkpoint copies (keep the notebooks themselves)
+.ipynb_checkpoints/
+
+# Local IDE settings and operating-system files
+.vs/
+.idea/
+.vscode/
+*.vcxproj.user
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Visual Studio / C++ build artifacts
+Debug/
+Release/
+x64/
+x86/
+*.exe
+*.obj
+*.obj.enc
+*.pdb
+*.idb
+*.ilk
+*.tlog/
+*.exe.recipe
+*.log
+
+# Trained models, learned parameters, and experiment summaries
+# Ignore every *.pt file.
+/Iris_neural_net/models/
+/Iris_neural_net/data/
+
+/Synthetic/models/
+/Synthetic/dictionary/
+
+# Manim intermediate files (keep the final video linked in README.md)
+/activation_functions/media/Tex/
+partial_movie_files/
+
+# Scratch generator outputs (canonical CSV datasets live in Synthetic/data)
+/temp/rand_val_gen/random_data.csv
+/temp/rand_val_gen/random_data.csv.xlsx
+/temp/rand_val_gen/random_data.txt
+/random_data.csv
+/random_data.txt
+
+# C++ file and folder to generate synthetic data
+/temp/
+*.cpp
+
+
+# KeepSynthetic/data: the dataset will allow the Synthetic notebooks to run immediately.
